@@ -37,7 +37,7 @@ setup(
     ],
     entry_points={
         'pytest11': [
-            'pytest-email = pytest_email.plugin',
+            'pytest-db = pytest_db.plugin',
         ]
     }
 )
