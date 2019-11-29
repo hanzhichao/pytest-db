@@ -47,11 +47,6 @@ def test_a(db):
 - db.change_db(sql): 执行修改sql
 
 
-### Todo
-- 增加执行时间，时长，用例失败信息，日志，图表等更多的信息
-- 支持JinJa2渲染模板
-- 支持对用例标记失败时发邮件给谁
-
 ---
 
 - Email: <a href="mailto:superhin@126.com?Subject=Pytest%20Email" target="_blank">`superhin@126.com`</a> 
