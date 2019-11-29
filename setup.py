@@ -24,7 +24,7 @@ setup(
     keywords=[
         'pytest', 'py.test', 'db', 'mysql'
     ],
-    name='pytest-email',
+    name='pytest-db',
     packages=find_packages(include=['pytest_db']),
     setup_requires=setup_requirements,
     url='https://github.com/hanzhichao/pytest-db',
