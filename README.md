@@ -1,4 +1,4 @@
-# pytest-db
+# pytest-data-file
 
 Pytest操作MySQL
 
