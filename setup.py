@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""The setup script."""
-
 from setuptools import setup, find_packages
+
+version = '0.1.2'
 
 setup_requirements = ['pytest-runner',]
 
@@ -27,7 +27,7 @@ setup(
     packages=find_packages(include=['pytest_db']),
     setup_requires=setup_requirements,
     url='https://github.com/hanzhichao/pytest-db',
-    version='0.1.1',
+    version=version,
     zip_safe=True,
     install_requires=[
         'pytest',
